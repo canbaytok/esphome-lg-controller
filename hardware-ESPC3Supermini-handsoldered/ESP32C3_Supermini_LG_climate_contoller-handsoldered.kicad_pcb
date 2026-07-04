@@ -99,7 +99,7 @@
 		(at 152.47 80 90)
 		(descr "RF Module, ESP32-C3 WROOM-02, Wi-Fi and Bluetooth, BLE, onboard antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
 		(tags "ESP32-C3 WROOM-02 espressif")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 0 -14.87 90)
 			(layer "F.SilkS")
 			(uuid "fd600b59-7a64-49dd-b968-8ab50447936f")
@@ -150,7 +150,7 @@
 		(property ki_fp_filters "ESP?WROOM?02*")
 		(path "/8cae26ff-28e7-4473-a193-3c8687037acb")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -330,7 +330,7 @@
 			(at -8.5 -15 90)
 			(size 3 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO5-Pad1)")
+			(net "unconnected-(U3-IO5-Pad1)")
 			(pinfunction "IO5_1")
 			(pintype "bidirectional")
 			(uuid "6f36150c-ef0d-4be5-a904-938816dee459")
@@ -339,7 +339,7 @@
 			(at -8.5 -12.46 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO6-Pad2)")
+			(net "unconnected-(U3-IO6-Pad2)")
 			(pinfunction "IO6_2")
 			(pintype "bidirectional")
 			(uuid "0267c950-177a-4be3-a2f7-f84e53f8581d")
@@ -348,7 +348,7 @@
 			(at -8.5 -9.92 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO7-Pad3)")
+			(net "unconnected-(U3-IO7-Pad3)")
 			(pinfunction "IO7_3")
 			(pintype "bidirectional")
 			(uuid "4613be95-4df2-4a1e-96c3-67d0ce6668ec")
@@ -357,7 +357,7 @@
 			(at -8.5 -7.38 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO8-Pad4)")
+			(net "unconnected-(U3-IO8-Pad4)")
 			(pinfunction "IO8_4")
 			(pintype "bidirectional")
 			(uuid "76fb16a3-c028-4a00-839b-746840f86b8f")
@@ -366,7 +366,7 @@
 			(at -8.5 -4.84 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO9-Pad5)")
+			(net "unconnected-(U3-IO9-Pad5)")
 			(pinfunction "IO9_5")
 			(pintype "bidirectional")
 			(uuid "313d6ee2-bc49-43c0-a627-dc79dda9238b")
@@ -375,7 +375,7 @@
 			(at -8.5 -2.3 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO10-Pad6)")
+			(net "unconnected-(U3-IO10-Pad6)")
 			(pinfunction "IO10_6")
 			(pintype "bidirectional")
 			(uuid "4e565431-ba3f-4080-a33b-5f66b78327dd")
@@ -402,7 +402,7 @@
 			(at 8.5 2.78 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO0-Pad9)")
+			(net "unconnected-(U3-IO0-Pad9)")
 			(pinfunction "IO0_9")
 			(pintype "bidirectional")
 			(uuid "e83f9e3e-793c-4d77-9c21-69a99f7a0b76")
@@ -411,7 +411,7 @@
 			(at 8.5 0.24 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO1-Pad10)")
+			(net "unconnected-(U3-IO1-Pad10)")
 			(pinfunction "IO1_10")
 			(pintype "bidirectional")
 			(uuid "14da52b5-1f94-472d-b3e0-1e6350f272e2")
@@ -420,7 +420,7 @@
 			(at 8.5 -2.3 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO2-Pad11)")
+			(net "unconnected-(U3-IO2-Pad11)")
 			(pinfunction "IO2_11")
 			(pintype "bidirectional")
 			(uuid "72a0c431-ca74-4a01-9c9d-2191a3bd9bb1")
@@ -429,7 +429,7 @@
 			(at 8.5 -4.84 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO3-Pad12)")
+			(net "unconnected-(U3-IO3-Pad12)")
 			(pinfunction "IO3_12")
 			(pintype "bidirectional")
 			(uuid "85327203-f09e-482e-9342-938e05ab515f")
@@ -438,7 +438,7 @@
 			(at 8.5 -7.38 90)
 			(size 3 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-IO4-Pad13)")
+			(net "unconnected-(U3-IO4-Pad13)")
 			(pinfunction "IO4_13")
 			(pintype "bidirectional")
 			(uuid "9aa10ee6-ce3a-48c8-8245-e039c16a7347")
@@ -519,7 +519,7 @@
 		(at 154 79)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 2.8 0 90)
 			(layer "B.SilkS")
 			(uuid "887c76c1-f17f-4980-a042-d73b258fd27b")
@@ -570,7 +570,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5f509d80-31a4-4d42-9f2a-3b80c263c1b4")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -647,7 +647,7 @@
 			(size 1.175 1.45)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.212766)
-			(net "Net-(U2-FB)")
+			(net "Net-(U1-FB)")
 			(pintype "passive")
 			(uuid "c9801c96-cff7-4420-a2fa-e4eaeff4ce0d")
 		)
@@ -670,7 +670,7 @@
 		(at 149 74.75 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 2.6 0.15 90)
 			(layer "B.SilkS")
 			(uuid "63da19d0-6af9-451a-b810-0787a0629a3f")
@@ -721,7 +721,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4811b06c-6740-4c50-a3b9-73297a814ee6")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -886,7 +886,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bd955cdf-1548-440e-a072-daa4b6a346d5")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -963,7 +963,7 @@
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(U2-FB)")
+			(net "Net-(U1-FB)")
 			(pintype "passive")
 			(uuid "b9a3a0f0-17e0-4f12-a9d5-194c7f72e10d")
 		)
@@ -1057,7 +1057,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/c87600d7-23ea-4e6e-800c-bb9a7e368e42")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1164,7 +1164,7 @@
 			(at -1.175 0 270)
 			(size 0.85 2.8)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(U2-PH)")
+			(net "Net-(U1-PH)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "2ef54e73-90ef-47bf-af68-73aff7955e23")
@@ -1262,7 +1262,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d92f6a3e-64ad-4520-bac8-24e781ad91f0")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1427,7 +1427,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f3653df8-0235-4690-8ce2-8324eece6580")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1592,7 +1592,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59c93101-9507-4831-9473-31ddbc27d7e2")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1660,7 +1660,7 @@
 			(size 1.2 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.208333)
-			(net "Net-(U2-FB)")
+			(net "Net-(U1-FB)")
 			(pintype "passive")
 			(uuid "57a2aba8-ed53-4ca4-80ba-04754b854301")
 		)
@@ -1745,7 +1745,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a6249dc3-077e-47ff-9121-b5619eea764d")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1902,7 +1902,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/1255b236-ceec-401d-b016-e4451c4103e2")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2142,7 +2142,7 @@
 		(at 150 71.6375 -90)
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at -0.0375 2.4 270)
 			(layer "B.SilkS")
 			(uuid "259dad50-6625-4e57-b3cf-ef7db2b74707")
@@ -2211,7 +2211,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/e5e770ec-37b1-4500-ae16-00f73e743550")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2379,7 +2379,7 @@
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U2-EN-Pad1)")
+			(net "unconnected-(U1-EN-Pad1)")
 			(pinfunction "EN_1")
 			(pintype "input")
 			(uuid "1e02269c-0a48-4ccb-89f6-691aae3f0e48")
@@ -2399,7 +2399,7 @@
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U2-PH)")
+			(net "Net-(U1-PH)")
 			(pinfunction "PH_3")
 			(pintype "power_out")
 			(uuid "4a88a4f9-b0b8-4185-adb6-164c0610c5db")
@@ -2419,7 +2419,7 @@
 			(size 1.325 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U2-FB)")
+			(net "Net-(U1-FB)")
 			(pinfunction "FB_5")
 			(pintype "input")
 			(uuid "949d8fe9-b27e-41b2-9b8c-11a957eb4c9e")
@@ -2496,7 +2496,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7757e756-aabe-4e69-8652-2846ae5eac9a")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2556,7 +2556,7 @@
 		(at 152.8 87.75 180)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at -4.6 -0.05 270)
 			(layer "B.SilkS")
 			(uuid "a800cf01-02ca-4684-a04a-75f97c9fcf2e")
@@ -2625,7 +2625,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/889d286a-be16-4660-aeec-60fa7ec5fb69")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2813,7 +2813,7 @@
 			(size 1.95 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U4-NC-Pad3)")
+			(net "unconnected-(U2-NC-Pad3)")
 			(pinfunction "NC_3")
 			(pintype "no_connect")
 			(uuid "8a7a8aad-e76d-484c-ad87-b983545e2b15")
@@ -2863,7 +2863,7 @@
 			(size 1.95 0.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U4-NC-Pad8)")
+			(net "unconnected-(U2-NC-Pad8)")
 			(pinfunction "NC_8")
 			(pintype "no_connect")
 			(uuid "c899717a-7561-4a0e-8591-ba8e8b62ef23")
@@ -2938,7 +2938,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/477a6daf-02dd-4bb6-b365-cbfdda6d179f")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3038,7 +3038,7 @@
 		(at 153 83.8)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 2.8 0 270)
 			(layer "B.SilkS")
 			(uuid "bec37bcb-c067-4145-9a22-597e64ce8ccc")
@@ -3103,7 +3103,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c59589ec-2575-4b00-9a40-d9dbd44f3de4")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3300,7 +3300,7 @@
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/e9fcb105-d2ff-4bbd-87d6-07458ce84dfa")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3540,7 +3540,7 @@
 		(at 148 87.2875 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 0.1125 1.8 270)
 			(layer "B.SilkS")
 			(uuid "01d2980f-5d32-4723-b585-26801ed85e85")
@@ -3591,7 +3591,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/67ce0014-a90a-495c-bb7b-a3b856a3892b")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3744,7 +3744,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/44cef0e9-402e-4b94-81d6-a5cd63fa24eb")
 		(sheetname "/")
-		(sheetfile "ESP32C3_Supermini_LG_climate_contoller.kicad_sch")
+		(sheetfile "ESP32C3_Supermini_LG_climate_contoller-handsoldered.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4637,86 +4637,6 @@
 		(uuid "e09b52aa-6a5e-4847-9cd7-3e7516ff2dbb")
 	)
 	(segment
-		(start 150.2 78.4)
-		(end 152.35 78.4)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "0fec5ef4-ec1e-46af-9381-55e284f66ba0")
-	)
-	(segment
-		(start 152.35 78.4)
-		(end 154 76.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "832a2f1a-a486-4bf2-8cd3-4192ef5b14a6")
-	)
-	(via
-		(at 154 76.75)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "69bd5c3c-9d0b-4d08-887c-ce5e0bbccf26")
-	)
-	(via
-		(at 150.2 78.4)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "8cba1353-473d-4460-b572-65fc15e56c06")
-	)
-	(segment
-		(start 155.0375 77.7875)
-		(end 154 76.75)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "5ede0e60-531e-4f54-977e-185f0e6a89a6")
-	)
-	(segment
-		(start 155.0375 79)
-		(end 155.0375 77.7875)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "775ac766-be11-48d1-ab0c-2a22be857300")
-	)
-	(segment
-		(start 149.05 75.8)
-		(end 149.05 72.775)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "b8303ad6-4898-47dc-8b97-1fac895c1d51")
-	)
-	(segment
-		(start 150 76.75)
-		(end 150 78.2)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "c813d047-93cb-4d51-b7fe-2535b5982f24")
-	)
-	(segment
-		(start 150 78.2)
-		(end 150.2 78.4)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "d700e3c8-1136-4240-85f7-70034bf604ce")
-	)
-	(segment
-		(start 150 76.75)
-		(end 149.05 75.8)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-FB)")
-		(uuid "e7fa34b5-612a-421a-af5a-5a83b70367cc")
-	)
-	(segment
 		(start 151 75.7125)
 		(end 150.0375 74.75)
 		(width 0.3)
@@ -4779,22 +4699,6 @@
 		(layer "B.Cu")
 		(net "Net-(D1-K)")
 		(uuid "9c57c3d1-4208-4b7b-ba3a-94ba8d612c54")
-	)
-	(segment
-		(start 153.825 70.5)
-		(end 154 70.325)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-PH)")
-		(uuid "9e1a8ec6-415f-4418-b737-41fb44dc87a8")
-	)
-	(segment
-		(start 150.95 70.5)
-		(end 153.825 70.5)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "Net-(U2-PH)")
-		(uuid "f7f98231-36d7-4c94-95aa-2ac596f1e4f5")
 	)
 	(segment
 		(start 142 80.4)
@@ -4947,6 +4851,102 @@
 		(layer "B.Cu")
 		(net "+12V")
 		(uuid "bcf7081b-2bf7-44ec-a4c4-550bfd334712")
+	)
+	(segment
+		(start 150.2 78.4)
+		(end 152.35 78.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "0fec5ef4-ec1e-46af-9381-55e284f66ba0")
+	)
+	(segment
+		(start 152.35 78.4)
+		(end 154 76.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "832a2f1a-a486-4bf2-8cd3-4192ef5b14a6")
+	)
+	(via
+		(at 154 76.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "69bd5c3c-9d0b-4d08-887c-ce5e0bbccf26")
+	)
+	(via
+		(at 150.2 78.4)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "8cba1353-473d-4460-b572-65fc15e56c06")
+	)
+	(segment
+		(start 155.0375 77.7875)
+		(end 154 76.75)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "5ede0e60-531e-4f54-977e-185f0e6a89a6")
+	)
+	(segment
+		(start 155.0375 79)
+		(end 155.0375 77.7875)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "775ac766-be11-48d1-ab0c-2a22be857300")
+	)
+	(segment
+		(start 149.05 75.8)
+		(end 149.05 72.775)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "b8303ad6-4898-47dc-8b97-1fac895c1d51")
+	)
+	(segment
+		(start 150 76.75)
+		(end 150 78.2)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "c813d047-93cb-4d51-b7fe-2535b5982f24")
+	)
+	(segment
+		(start 150 78.2)
+		(end 150.2 78.4)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "d700e3c8-1136-4240-85f7-70034bf604ce")
+	)
+	(segment
+		(start 150 76.75)
+		(end 149.05 75.8)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-FB)")
+		(uuid "e7fa34b5-612a-421a-af5a-5a83b70367cc")
+	)
+	(segment
+		(start 153.825 70.5)
+		(end 154 70.325)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-PH)")
+		(uuid "9e1a8ec6-415f-4418-b737-41fb44dc87a8")
+	)
+	(segment
+		(start 150.95 70.5)
+		(end 153.825 70.5)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "Net-(U1-PH)")
+		(uuid "f7f98231-36d7-4c94-95aa-2ac596f1e4f5")
 	)
 	(zone
 		(net "GND")

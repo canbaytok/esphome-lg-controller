@@ -703,13 +703,13 @@
         "uuid": "cbd30d1b-48be-42a5-93fa-590acf325451"
       }
     ],
-    "used_designators": "J1-3",
+    "used_designators": "U1-3,R1-4,L1,D1-2,C1-5,#PWR1-17,J1-3",
     "variants": []
   },
   "sheets": [
     [
       "cbd30d1b-48be-42a5-93fa-590acf325451",
-      "ESP32C3_Supermini_LG_climate_contoller"
+      "ESP32C3_Supermini_LG_climate_contoller-handsoldered"
     ]
   ],
   "text_variables": {},
